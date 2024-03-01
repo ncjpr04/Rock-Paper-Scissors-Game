@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 97, 80);
+    color: white;
+    height: fit-content;
+    padding: 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 5rem;
+}
+
+.choice {
+    height:175px;
+    width: 175px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(97, 11, 10, 0.093);
+}
+
+.choice:hover {
+    /* background-color: rgb(10, 97, 80); */
+    /* opacity: .5; */
+    cursor: pointer;
+    box-shadow: 0px 0px 5px gray;
+}
+.choice:active {
+    /* background-color: rgb(10, 97, 80); */
+    /* opacity: .5; */opacity: 0.7;
+}
+
+img {
+    /* mix-blend-mode: multiply; */
+    height: 150px;
+    width: 150px;
+    border-radius: 500px;
+    /* border: 1px solid black; */
+    object-fit: cover;
+}
+
+.score-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+.score{
+    color:  rgb(10, 97, 80);
+}
+#user-score,#draw-score,
+#comp-score,#total-games {
+    font-size: 4rem;
+}
+#total-games{
+    color: black;
+}
+#user-score{
+    color: green;
+}
+#draw-score{
+    color: blue;
+}
+#comp-score{
+    color: red;
+}
+.msg-container {
+    margin-top: 50px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#msg {
+    width: fit-content;
+    /* display: inline; */
+    background-color: rgb(10, 97, 80);
+    color: white;
+    font-size: 25px;
+    padding: 16px;
+    border-radius: 1rem;
+}
